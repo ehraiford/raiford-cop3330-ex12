@@ -23,6 +23,7 @@ public class App {
         double result = principal * (1 + ((rate/100) * years));
         result = Math.ceil(result*100)/100;
 
-        System.out.println("After " + years + " years at " + rate + "%, the investment will be worth $" + result + ".");
+        System.out.print("After " + years + " years at " + rate + "%, the investment will be worth $");
+        System.out.printf("%.2f.", result);
     }
 }
