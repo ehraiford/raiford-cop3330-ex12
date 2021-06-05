@@ -24,6 +24,5 @@ public class App {
         result = Math.ceil(result*100)/100;
 
         System.out.println("After " + years + " years at " + rate + "%, the investment will be worth $" + result + ".");
-
     }
 }
